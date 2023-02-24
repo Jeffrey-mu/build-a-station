@@ -1,6 +1,6 @@
 {
-  "name": "vitesse-nuxt3",
-  "description": "vitesse-nuxt3 description",
+  "name": "build-a-site",
+  "description": "",
   "private": true,
   "packageManager": "pnpm@7.9.0",
   "scripts": {
@@ -10,7 +10,7 @@
     "start": "node .output/server/index.mjs",
     "lint": "eslint .",
     "postinstall": "nuxi prepare",
-    "generate": "nuxi generate",
+    "generate": "nuxt generate",
     "start:generate": "npx serve .output/public"
   },
   "devDependencies": {
@@ -26,5 +26,11 @@
     "nuxt": "^3.2.2",
     "pinia": "^2.0.30",
     "typescript": "^4.9.5"
-  }
+  },
+  "dependencies": {
+    "@heroicons/vue": "^2.0.16",
+    "@nuxt/devtools": "^0.2.0",
+    "nuxt-headlessui": "^1.1.1"
+  },
+  "__npminstall_done": false
 }
